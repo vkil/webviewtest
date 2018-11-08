@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     func testWKWebView() {
         let view = WKWebView(frame: CGRect(x: 0, y: 0, width: 400, height: 400))
         self.view.addSubview(view)
-        view.load(URLRequest(url: URL(string: "https://solo1.nordea.fi/")!))
+        view.load(URLRequest(url: URL(string: "https://tupas.nordea.fi/")!))
         
     }
     
